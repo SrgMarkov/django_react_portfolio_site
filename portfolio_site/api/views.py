@@ -1,4 +1,11 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
+from rest_framework import generics
 
-def main(request):
-    return HttpResponse('Hello World!')
+from .models import Project
+from .serializers import ProjectSerializer
+
+
+class ProjectView(generics.ListAPIView):
+    queryset = Project.objects.all()
+    serializer_class = ProjectSerializer
+
