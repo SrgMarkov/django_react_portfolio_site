@@ -6,8 +6,7 @@ const Header = () => {
 			<div className="header__wrapper">
 				<h1 className="header__title">
 					<strong>
-						Hi, my name is <br /> 
-						<em>Sergey Markov</em>
+						Hi, my name is <em>Sergey</em>
 					</strong>
 					<br />a backend developer
 				</h1>

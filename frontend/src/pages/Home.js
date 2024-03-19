@@ -1,7 +1,7 @@
-import Header from '../components/header/Header'
+import Header from './../components/header/Header'
 
 const Home = () => {
-	return (
+    return (
 		<>
 			<Header />
 			<main className="section">
@@ -9,15 +9,18 @@ const Home = () => {
 					<ul className="content-list">
 						<li className="content-list__item">
 							<h2 className="title-2">Backend</h2>
-							<p>Python, Django, Django Rest Framework, Redis, Postgre SQL</p>
+							<p>
+								Python, Django framework, Django Rest Framework,
+								Nginx, Linux, SQL, Redis
+							</p>
 						</li>
 						<li className="content-list__item">
-							<h2 className="title-2">Frotend</h2>
-							<p>JavaScript, React JS</p>
+							<h2 className="title-2">Frontend</h2>
+							<p>JavaScript, HTML, CSS, NPM, ReactJS</p>
 						</li>
 						<li className="content-list__item">
-							<h2 className="title-2">Additionally</h2>
-							<p>Git, Docker, Kubernetes, Linux</p>
+							<h2 className="title-2">Tools</h2>
+							<p>Git, Docker, Kubernetes</p>
 						</li>
 					</ul>
 				</div>

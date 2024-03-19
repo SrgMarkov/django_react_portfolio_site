@@ -11,7 +11,7 @@ const Navbar = () => {
 			<div className="container">
 				<div className="nav-row">
 					<NavLink to="/" className="logo">
-						<strong>Sergey Markov</strong> portfolio
+						<strong>Developer</strong> portfolio
 					</NavLink>
 
 					<BtnDarkMode />
@@ -56,4 +56,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

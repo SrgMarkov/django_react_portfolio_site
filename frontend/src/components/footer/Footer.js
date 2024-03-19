@@ -1,7 +1,7 @@
 import "./style.css";
 
-import vk from '../../static/images/icons/vk.svg';
-import gitHub from '../../static/images/icons/gitHub.svg';
+import vk from './../../img/icons/vk.svg';
+import gitHub from './../../img/icons/gitHub.svg';
 
 const Footer = () => {
     return (

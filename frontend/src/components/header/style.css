@@ -8,10 +8,12 @@
 	align-items: center;
 
 	background-color: var(--header-bg);
-	background-image: url('./../../static/images/header-bg.png');
+	background-image: url('./../../img/header-bg.jpeg');
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center center;
+	z-index: 1;
+
 
 	color: var(--header-text);
 	text-align: center;
